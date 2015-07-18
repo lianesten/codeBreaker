@@ -27,7 +27,7 @@ public class testCodeBraker {
 	@Test
 	public void testX() {
 		CodeBreaker code = new CodeBreaker();
-		assertEquals(code.acertar("1865"), "xxxxxxx");//Solo es una x, hago fallar la prueba con muchas
+		assertEquals(code.acertar("1865"), "x");//Solo es una x, hago fallar la prueba con muchas
 	}
 	@Test
 	public void testVacio() {
